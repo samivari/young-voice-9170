@@ -1,0 +1,5 @@
+<h2>Students and thier professor count</h2>
+
+<% @students.each do |student| %>
+<br><%= student.name %>: <%= student.professor_count %></br>
+<% end %>
